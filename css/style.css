@@ -1,0 +1,122 @@
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "lato";
+   src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "lato";
+   src: url("../fonts/latoBlack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body{
+   font-family: "Lato";
+   margin-left: 15cm;
+}
+h1{
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+text-align: left;
+color: #1E212C;
+padding: 1cm;
+max-width: 1300px;
+}
+
+img{
+
+background: url(post.jpg);
+border-radius: 4px;
+margin-left: 5cm;
+}
+
+div.text{
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: grey;
+max-width: 1350px;
+
+}
+.text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25.6px;
+   color: gray;
+   margin: 1cm;
+   
+}
+.text-desk{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 25.6px;
+   color: gray;
+   margin: 1cm;
+   
+}
+[class*="example"]{
+   max-width: 550px;
+   background-color: chartreuse;
+   margin: 0 auto;
+   font-size: 18px;
+}
+.example-one{
+   border: 15px solid rgb(47, 128, 0);
+	padding: 10px;
+	margin: 20px 5px;
+   width: 525px;
+   height: 135px;
+   background-color: firebrick;
+}
+.example-two{
+background-color: royalblue;
+max-width: 540px;
+min-height: 25px;
+padding: 30px;
+margin: 30px;
+}
+.training{
+   background-color: red;
+   font-weight: 700;
+}
+.example-three{
+   width: 600px;
+   max-height: 110px;
+   background-color: cornflowerblue;
+   border-bottom: 10px 35px;
+   padding: 20px;
+   overflow: hidden;
+   border-radius: 99px;
+}
+.example-four{
+   text-align: center;
+   font-weight: 900;
+   border-top: 7px solid rgb(255, 0, 162);
+	border-right: 9px dotted rgb(4, 255, 0);
+	border-bottom: 5px double rgb(170, 15, 121);
+	border-left: 7px dashed rgb(171, 171, 161);
+   margin: 25px 70px;
+   min-width: 200px;
+}
+.example-five{
+   border-radius: 50%;
+	width: 300px;
+	height: 200px;
+	background-color: #e0d12e;
+   opacity: 0.5;
+   overflow: hidden;
+}
